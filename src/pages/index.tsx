@@ -25,9 +25,9 @@ export const App :NextPage = () => {
     return (
         <Box as="section" height="100vh" overflowY="auto">
             <Navbar />
-            <Container pt={{ base: '8', lg: '12' }} pb={{ base: '12', lg: '24' }}>
-                <Content />
-            </Container>
+            {/*<Container pt={{ base: '8', lg: '12' }} pb={{ base: '12', lg: '24' }}>*/}
+            {/*    <Content />*/}
+            {/*</Container>*/}
         </Box>
     )
 }
